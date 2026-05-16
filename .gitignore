@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Data (download separately — see README)
+data/
+Data/
+*.zarr/
+*.csv
+bsccm_processed/
+
+# Model checkpoints (large binary files)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Training outputs
+wandb/
+runs/
+logs/
+evaluation_results*/
+ablation_results/
+baseline_regression_results/
+regression_comparison_figures/
+dataset_analysis_plots/
+SC_evaluation_results/
+kaggle_results_tables*/
+summaries/
+temp/
+
+# Generated figures (reproducible from code)
+*.png
+*.pdf
+*.mp4
+!assets/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Internal working files (not part of the paper release)
+BSCCM/
+Classfiifcation/
+figure_making/
+figures/
+resources/
+styles/
+.virtual_documents/
+
+# Old/internal scripts and guides
+train_multitask_improved.py
+train_multitask.py
+evaluate_multitask.py
+enhanced_data_loading.py
+hybrid_multitask_model_optimized.py
+hybrid_multitask_model*.py
+improved_losses.py
+kaggle_bccd_data_loading.py
+ablation_models.py
+train_ablation.py
+evaluate_ablation.py
+train_baseline_regressors.py
+evaluate_baseline_results.py
+train_kaggle_bccd.py
+evaluate_kaggle_bccd.py
+create_kaggle_results_table.py
+create_results_summary_figure.py
+extract_classification_metrics.py
+generate_final_summaries.py
+generate_kaggle_paper_tables.py
+run_all_ablations.py
+verify_kaggle_splits.py
+visualize_dataset_analysis.py
+visualize_regression_comparison.py
+visualize_regression_comparison.py
+*.sh
+*.txt
+*.md
+
+# Keep important docs
+!README.md
+!requirements.txt
+!LICENSE

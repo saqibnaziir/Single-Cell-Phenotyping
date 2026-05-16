@@ -1,0 +1,21 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+Pillow>=9.5.0
+tqdm>=4.65.0
+scipy>=1.11.0
+
+# BSCCM dataset package
+bsccm>=1.0.0
+
+# Optional: Weights & Biases logging
+# wandb>=0.15.0
+
+# Optional: LLM interpretability
+# openai>=1.0.0          # OpenAI GPT-4/3.5
+# transformers>=4.20.0   # Local LLMs (Llama, Mistral)
