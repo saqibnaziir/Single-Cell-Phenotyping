@@ -2,10 +2,6 @@
 
 **ICPR 2026** | [arXiv:2605.14717](https://arxiv.org/abs/2605.14717)
 
-> **Saqib Nazir** and **Ardhendu Behera**  
-> Department of Computer Science, Edge Hill University, UK  
-> {Saqib.Nazir1993@gmail.com}
-
 ---
 
 ## Overview
